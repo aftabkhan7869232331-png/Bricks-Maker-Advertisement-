@@ -1,0 +1,13 @@
+{
+  "python": true,
+  "git": true,
+  "engineFolder": false,
+  "modelFolder": false,
+  "overallReady": false,
+  "details": {
+    "pythonVersion": "Python 3.13.13",
+    "gitVersion": "git version 2.45.1.windows.1",
+    "enginePath": "./engines/Wan2.1",
+    "modelPath": "./models/Wan2.1-T2V-1.3B"
+  }
+}

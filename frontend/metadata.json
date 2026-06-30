@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Brick-Maker Studio",
+  "description": "Elite AI-powered advertisement and marketing suite with copywriting generation, campaign creation, and interactive analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.pro
+*.local
+*.log
+.idea/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.venv-wan21/
+engines/
+models/

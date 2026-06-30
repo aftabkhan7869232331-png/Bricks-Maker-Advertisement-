@@ -1,0 +1,65 @@
+{
+  "collections": {
+    "campaigns": {
+      "id": "string",
+      "productName": "string",
+      "description": "string",
+      "tone": "string",
+      "targetAudience": "string",
+      "status": "string",
+      "createdAt": "string",
+      "spend": "number",
+      "impressions": "number",
+      "clicks": "number",
+      "conversions": "number",
+      "adCopy": "object",
+      "imageUrl": "string",
+      "bannerConfig": "object",
+      "pamphlet": "object"
+    },
+    "projects": {
+      "id": "string",
+      "name": "string",
+      "description": "string",
+      "category": "string",
+      "projectType": "string",
+      "priority": "string",
+      "language": "string",
+      "theme": "string",
+      "targetAudience": "string",
+      "deadline": "string",
+      "outputFormat": "string",
+      "status": "string",
+      "createdAt": "string",
+      "isPinned": "boolean",
+      "assets": "array"
+    },
+    "support_tickets": {
+      "id": "string",
+      "name": "string",
+      "email": "string",
+      "phone": "string",
+      "subject": "string",
+      "category": "string",
+      "message": "string",
+      "priority": "string",
+      "status": "string",
+      "createdAt": "string",
+      "updatedAt": "string",
+      "replies": "array"
+    },
+    "faqs": {
+      "id": "string",
+      "question": "string",
+      "answer": "string",
+      "category": "string"
+    },
+    "feedback": {
+      "id": "string",
+      "feedbackType": "string",
+      "rating": "number",
+      "message": "string",
+      "createdAt": "string"
+    }
+  }
+}
