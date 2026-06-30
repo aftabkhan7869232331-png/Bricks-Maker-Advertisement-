@@ -1,41 +1,135 @@
-# Bricks Maker Advertisement
+# 🚀 BRICK-MAKER ADVERTISEMENT & MARKETING PLATFORM
 
-Phase 1 foundation for the professional advertising workspace.
+Professional Advertisement & Marketing Platform built with **React + FastAPI + PostgreSQL**.
 
-## Run
+---
+
+# 📂 Project Structure
+
+```
+BRICK-MAKER ADVERTISEMENT AND MARKETING PLATFORM
+│
+├── frontend/                 # React + Vite Frontend
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/                  # FastAPI Backend
+│   ├── app/
+│   ├── requirements.txt
+│   ├── .env.example
+│   └── Dockerfile
+│
+├── .env.example
+├── .gitignore
+├── README.md
+└── docs/ (Coming Soon)
+```
+
+---
+
+# ⚙️ Tech Stack
+
+### Frontend
+
+- React 19
+- Vite
+- React Router
+- Axios
+- Firebase
+- Framer Motion
+- React Hook Form
+- React Hot Toast
+- Lucide React
+
+### Backend
+
+- FastAPI
+- SQLAlchemy
+- PostgreSQL
+- Alembic
+- JWT Authentication
+- OAuth
+- Docker
+
+---
+
+# ▶ Frontend
 
 ```powershell
+cd frontend
 npm install
 npm run dev
 ```
 
-The project is organized into:
+Runs on
 
-- `frontend/` — React application, assets, pages, components, and browser services
-- `backend/` — Express server, setup scripts, and backend checks
-- `docs/` — developer documentation, security notes, and project charts
-- `scripts/` — maintenance scripts for Wan2.1 setup and requirement updates
-
-Copy `.env.example` to `.env` when connecting a backend. OAuth secrets, JWT
-signing, encryption, authoritative rate limiting, and audit persistence must
-run on the server; only public OAuth client IDs belong in Vite variables.
-
-## Included
-
-- Validated professional configuration and feature flags
-- Advanced user, campaign, analytics, API and permission types
-- Backend-ready OAuth/token/2FA client
-- Cache and offline synchronization service
-- Browser-safe security helpers
-- Monitoring and health checks
-- Five persistent professional/accessibility themes
-
-## Maintenance
-
-```powershell
-npm run wan:check
-npm run requirements:update
+```
+http://localhost:5173
 ```
 
-Developer documentation and generated project maps live in `docs/` so the
-repository root stays focused on runnable project configuration.
+---
+
+# ▶ Backend
+
+```powershell
+cd backend
+.\.venv\Scripts\Activate.ps1
+
+uvicorn app.main:app --reload
+```
+
+Runs on
+
+```
+http://127.0.0.1:8000
+```
+
+Swagger API
+
+```
+http://127.0.0.1:8000/docs
+```
+
+Health Check
+
+```
+http://127.0.0.1:8000/health/
+```
+
+---
+
+# ✅ Current Progress
+
+- ✔ Enterprise Folder Structure
+- ✔ React Frontend
+- ✔ FastAPI Backend
+- ✔ Frontend ↔ Backend Connection
+- ✔ Health API Working
+
+---
+
+# 🚧 Upcoming Modules
+
+- Authentication
+- Dashboard
+- Advertisement Builder
+- AI Generator
+- Video Generator
+- Social Media Automation
+- Analytics
+- Subscription
+- Payment Gateway
+- Admin Panel
+- Mobile App API
+
+---
+
+# 👨‍💻 Developer
+
+**Aftab Khan**
+
+BRICK-MAKER Advertisement & Marketing Platform
+
+Version **1.0.0**
